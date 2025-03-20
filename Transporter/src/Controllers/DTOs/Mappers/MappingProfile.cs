@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using src.Controllers.DTOs;
 using Transporter.Infrastructure.Domain;
 
 namespace Transporter.Controllers.DTOs.Mappers
@@ -12,6 +13,7 @@ namespace Transporter.Controllers.DTOs.Mappers
         public MappingProfile()
         {
             CreateMap<TransporterCompany, TransporterCompanyDto>().ReverseMap();
+            CreateMap<TransporterCompany, LoginDto>().ReverseMap();
         }
     }
 }

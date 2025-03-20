@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\angel\\Desktop\\OmWay\\Transporter\\src\\Transporter.csproj": {}
+    "C:\\Users\\angel\\Desktop\\OmWay\\transporter\\src\\Transporter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\angel\\Desktop\\OmWay\\Transporter\\src\\Transporter.csproj": {
+    "C:\\Users\\angel\\Desktop\\OmWay\\transporter\\src\\Transporter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\angel\\Desktop\\OmWay\\Transporter\\src\\Transporter.csproj",
+        "projectUniqueName": "C:\\Users\\angel\\Desktop\\OmWay\\transporter\\src\\Transporter.csproj",
         "projectName": "Transporter",
-        "projectPath": "C:\\Users\\angel\\Desktop\\OmWay\\Transporter\\src\\Transporter.csproj",
+        "projectPath": "C:\\Users\\angel\\Desktop\\OmWay\\transporter\\src\\Transporter.csproj",
         "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\angel\\Desktop\\OmWay\\Transporter\\src\\obj\\",
+        "outputPath": "C:\\Users\\angel\\Desktop\\OmWay\\transporter\\src\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,8 +43,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -53,6 +52,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[14.0.0, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
@@ -98,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

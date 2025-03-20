@@ -10,6 +10,8 @@ using Transporter.Infrastructure.Domain;
 using Transporter.Infrastructure.Repositories.Interfaces;
 using FluentAssertions;
 using Xunit;
+using Microsoft.AspNetCore.Mvc;
+using src.Infrastructure.Repositories.Interfaces.Manager;
 
 
 namespace Transporter.Tests
@@ -19,13 +21,15 @@ namespace Transporter.Tests
         private readonly Mock<ITransporterRepository> _mockRepo;
         private readonly TransporterService _service;
         private readonly Mock<IMapper> _mapper;
+        private readonly Mock<ITransporterManagerRepository> _mockManagerRepo;
 
         public TransporterServiceTests()
         {
 
+            _mockManagerRepo = new Mock<ITransporterManagerRepository>();
             _mockRepo = new Mock<ITransporterRepository>();
             _mapper = new Mock<IMapper>();
-            _service = new TransporterService(_mockRepo.Object, _mapper.Object);
+            _service = new TransporterService(_mockRepo.Object, _mapper.Object, _mockManagerRepo.Object);
         }
 
         [Fact]
@@ -58,6 +62,7 @@ namespace Transporter.Tests
 
             //Act
             var result = await _service.RegisterAsync(transporterDto);
+            result.Should().BeOfType<TransporterCompanyDto>();
 
             //Assert
             result.Should().NotBeNull();

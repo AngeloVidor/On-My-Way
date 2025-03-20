@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "WMyYPDWhqP0=",
+  "dgSpecHash": "2+GyHqivTeU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\angel\\Desktop\\OmWay\\Transporter\\src\\Transporter.csproj",
+  "projectFilePath": "C:\\Users\\angel\\Desktop\\OmWay\\transporter\\src\\Transporter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\angel\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\angel\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.14\\microsoft.aspnetcore.openapi.8.0.14.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

@@ -151,7 +151,6 @@ C:\Users\angel\Desktop\OmWay\Transporter\obj\Debug\net8.0\ref\Transporter.dll
 C:\Users\angel\Desktop\OmWay\Transporter\src\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\angel\Desktop\OmWay\Transporter\src\bin\Debug\net8.0\appsettings.json
 C:\Users\angel\Desktop\OmWay\Transporter\src\bin\Debug\net8.0\global.json
-C:\Users\angel\Desktop\OmWay\Transporter\src\bin\Debug\net8.0\Transporter.staticwebassets.endpoints.json
 C:\Users\angel\Desktop\OmWay\Transporter\src\bin\Debug\net8.0\Transporter.exe
 C:\Users\angel\Desktop\OmWay\Transporter\src\bin\Debug\net8.0\Transporter.deps.json
 C:\Users\angel\Desktop\OmWay\Transporter\src\bin\Debug\net8.0\Transporter.runtimeconfig.json
@@ -285,9 +284,7 @@ C:\Users\angel\Desktop\OmWay\Transporter\src\obj\Debug\net8.0\Transporter.source
 C:\Users\angel\Desktop\OmWay\Transporter\src\obj\Debug\net8.0\scopedcss\bundle\Transporter.styles.css
 C:\Users\angel\Desktop\OmWay\Transporter\src\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\angel\Desktop\OmWay\Transporter\src\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\angel\Desktop\OmWay\Transporter\src\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\angel\Desktop\OmWay\Transporter\src\obj\Debug\net8.0\staticwebassets\msbuild.Transporter.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\angel\Desktop\OmWay\Transporter\src\obj\Debug\net8.0\staticwebassets\msbuild.Transporter.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\angel\Desktop\OmWay\Transporter\src\obj\Debug\net8.0\staticwebassets\msbuild.build.Transporter.props
 C:\Users\angel\Desktop\OmWay\Transporter\src\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Transporter.props
 C:\Users\angel\Desktop\OmWay\Transporter\src\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Transporter.props
@@ -298,3 +295,4 @@ C:\Users\angel\Desktop\OmWay\Transporter\src\obj\Debug\net8.0\refint\Transporter
 C:\Users\angel\Desktop\OmWay\Transporter\src\obj\Debug\net8.0\Transporter.pdb
 C:\Users\angel\Desktop\OmWay\Transporter\src\obj\Debug\net8.0\Transporter.genruntimeconfig.cache
 C:\Users\angel\Desktop\OmWay\Transporter\src\obj\Debug\net8.0\ref\Transporter.dll
+C:\Users\angel\Desktop\OmWay\transporter\src\bin\Debug\net8.0\BCrypt.Net-Next.dll

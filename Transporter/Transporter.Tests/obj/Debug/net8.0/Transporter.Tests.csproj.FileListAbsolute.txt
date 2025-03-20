@@ -458,3 +458,4 @@ C:\Users\angel\Desktop\OmWay\Transporter\Transporter.Tests\bin\Debug\net8.0\Tran
 C:\Users\angel\Desktop\OmWay\Transporter\Transporter.Tests\obj\Debug\net8.0\Transpor.3A4451F2.Up2Date
 C:\Users\angel\Desktop\OmWay\Transporter\Transporter.Tests\obj\Debug\net8.0\Transporter.Tests.genruntimeconfig.cache
 C:\Users\angel\Desktop\OmWay\Transporter\Transporter.Tests\obj\Debug\net8.0\ref\Transporter.Tests.dll
+C:\Users\angel\Desktop\OmWay\transporter\Transporter.Tests\bin\Debug\net8.0\BCrypt.Net-Next.dll
