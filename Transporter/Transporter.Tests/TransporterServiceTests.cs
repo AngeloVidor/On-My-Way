@@ -18,16 +18,14 @@ namespace Transporter.Tests
     {
         private readonly Mock<ITransporterRepository> _mockRepo;
         private readonly TransporterService _service;
-
+        private readonly Mock<IMapper> _mapper;
 
         public TransporterServiceTests()
         {
 
-            // Criando um mock (simulação) do repositório para evitar acessos reais ao banco de dados
             _mockRepo = new Mock<ITransporterRepository>();
-
-            // Inicializando o serviço e injetando o mock do repositório como dependência
-            _service = new TransporterService(_mockRepo.Object, new Mock<IMapper>().Object);
+            _mapper = new Mock<IMapper>();
+            _service = new TransporterService(_mockRepo.Object, _mapper.Object);
         }
 
         [Fact]
@@ -39,8 +37,8 @@ namespace Transporter.Tests
                 Transporter_Id = 1,
                 Name = "Transporter 1",
                 Email = "email",
-                CNPJ = "99.999.999/9999-99",
-                Password = "password"
+                Password = "password",
+                CNPJ = "99.999.999/9999-99"
             };
 
             var transporterEntity = new TransporterCompany
@@ -48,19 +46,35 @@ namespace Transporter.Tests
                 Transporter_Id = 1,
                 Name = "Transporter 1",
                 Email = "email",
-                CNPJ = "99.999.999/9999-99",
-                Password = "password"
+                Password = "password",
+                CNPJ = "99.999.999/9999-99"
             };
 
             _mockRepo.Setup(repo => repo.RegisterAsync(It.IsAny<TransporterCompany>()))
             .ReturnsAsync(transporterEntity);
+
+            _mapper.Setup(m => m.Map<TransporterCompanyDto>(It.IsAny<TransporterCompany>())).Returns(transporterDto);
+            _mapper.Setup(m => m.Map<TransporterCompany>(It.IsAny<TransporterCompanyDto>())).Returns(transporterEntity);
 
             //Act
             var result = await _service.RegisterAsync(transporterDto);
 
             //Assert
             result.Should().NotBeNull();
-            result.Transporter_Id.Should().Be(transporterDto.Transporter_Id); 
+            result.Email.Should().NotBeNullOrWhiteSpace();
+            result.Name.Should().NotBeNullOrWhiteSpace();
+            result.CNPJ.Should().NotBeNullOrWhiteSpace();
+            result.Password.Should().NotBeNullOrWhiteSpace();
+            result.Transporter_Id.Should().BeGreaterThan(0);
+            result.Transporter_Id.Should().Be(transporterDto.Transporter_Id);
+
+            transporterDto.Email.Should().NotBeNullOrWhiteSpace();
+            transporterDto.Name.Should().NotBeNullOrWhiteSpace();
+            transporterDto.Password.Should().NotBeNullOrWhiteSpace();
+            transporterDto.CNPJ.Should().NotBeNullOrWhiteSpace();
+            transporterDto.Transporter_Id.Should().BeGreaterThan(0);
+
+
             _mockRepo.Verify(repo => repo.RegisterAsync(It.IsAny<TransporterCompany>()), Times.Once);
 
         }

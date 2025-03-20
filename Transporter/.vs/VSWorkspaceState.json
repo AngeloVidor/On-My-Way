@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\Transporter.Tests",
+    "\\Transporter.Tests\\bin",
+    "\\Transporter.Tests\\bin\\Release",
+    "\\Transporter.Tests\\obj",
+    "\\Transporter.Tests\\obj\\Debug",
+    "\\Transporter.Tests\\obj\\Release"
+  ],
+  "SelectedNode": "\\src\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}
