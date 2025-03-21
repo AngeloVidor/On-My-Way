@@ -5694,8 +5694,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\angel\\Desktop\\OmWay\\transporter\\src\\Transporter.csproj": {
-              "projectPath": "C:\\Users\\angel\\Desktop\\OmWay\\transporter\\src\\Transporter.csproj"
+            "C:\\Users\\angel\\Desktop\\OmWay\\Transporter\\src\\Transporter.csproj": {
+              "projectPath": "C:\\Users\\angel\\Desktop\\OmWay\\Transporter\\src\\Transporter.csproj"
             }
           }
         }

@@ -296,3 +296,6 @@ C:\Users\angel\Desktop\OmWay\Transporter\src\obj\Debug\net8.0\Transporter.pdb
 C:\Users\angel\Desktop\OmWay\Transporter\src\obj\Debug\net8.0\Transporter.genruntimeconfig.cache
 C:\Users\angel\Desktop\OmWay\Transporter\src\obj\Debug\net8.0\ref\Transporter.dll
 C:\Users\angel\Desktop\OmWay\transporter\src\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\angel\Desktop\OmWay\Transporter\src\bin\Debug\net8.0\Transporter.staticwebassets.endpoints.json
+C:\Users\angel\Desktop\OmWay\Transporter\src\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\angel\Desktop\OmWay\Transporter\src\obj\Debug\net8.0\staticwebassets\msbuild.Transporter.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
