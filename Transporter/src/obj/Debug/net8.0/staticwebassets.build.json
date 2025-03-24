@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "MQTnZU8ESXah47zvl3RFcC6VdlVf2PnlQfbFR7w/8Gw=",
+  "Hash": "tKbEOXYg1D54B+Af+CXx+sWDXM7DC6CnCIVgAI4oKj0=",
   "Source": "Transporter",
   "BasePath": "_content/Transporter",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }
